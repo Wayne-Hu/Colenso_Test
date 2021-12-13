@@ -1,0 +1,34 @@
+{
+  "page-welcome": {
+    "main-heading": "The best families<br/>start with a dog",
+    "main-blurb": "Have a look at our sample test questions and answers. Take the test to find your match."
+  },
+  "forms": {
+    "forms-common": {
+      "labels": {
+        "button-next": "next"
+      }
+    }
+  },
+  "common": {
+    "links": {
+      "cookie-policy": "Cookie Policy",
+      "privacy-policy": "Privacy Policy",
+      "terms-conditions": "Terms & Conditions"
+    },
+    "other": {
+      "powered-by": "Powered by"
+    }
+  },
+  "questions": {
+    "css": {
+      "q": "Rate your CSS skills from 0 to 5"
+    },
+    "js": {
+      "q": "Rate your JS skills from 0 to 5"
+    },
+    "committed": {
+      "q": "What’s your commitment level?"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../../../styles/palette';
+
+.buttonBase {
+  border: 3px solid $palette-button-base;
+  cursor: pointer;
+  border: 3px solid $palette-button-border;
+  border-radius: 8px;
+  background-color: $palette-button-base;
+  text-transform: uppercase;
+  min-height: 56px; 
+  box-shadow: 0px 6px 12px rgba(36, 36, 36, 0.18);
+  width: 100%;
+  margin: 10px 0;
+
+  &:disabled {
+    border-color: $palette-button-border-disabled;
+    color: $palette-button-text-disabled;
+  }
+
+  &:focus {
+    outline: none; 
+  } 
+}

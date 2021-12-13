@@ -1,0 +1,57 @@
+@import '~normalize.css';
+@import '../styles/palette';
+
+// ======================================================
+// Globals
+// ======================================================
+
+$screen-margin: 20px;
+$max-form-width: 310px;
+$max-content-width: 320px;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-size: initial;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  text-rendering: optimizeLegibility;
+  background: #f6f6f6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+hr {
+  border: 1px solid #000;
+  width: 100%;
+  max-width: $max-content-width;
+}
+
+#root {
+  width: 100%;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.balanced-layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-items: center;
+  align-items: center;
+}

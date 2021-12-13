@@ -1,0 +1,52 @@
+@import "../../styles/palette";
+
+.main {
+  position: relative;
+  height: 100%;
+
+  header {
+    margin: 1.37em auto 2.35em;
+    h1 {
+      text-transform: uppercase;
+    }
+  }
+
+  hr {
+    margin-top: 2.95em;
+  }
+}
+
+.projectLogo {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  width: 70px;
+  left: -18px;
+  top: 12px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1em auto 2.95em;
+
+  a {
+    color: inherit;
+    line-height: 279.29%;
+    text-decoration: none;
+  }
+}
+
+.footerTag {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.errorField {
+  color: red;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  margin-left: 26px;
+}

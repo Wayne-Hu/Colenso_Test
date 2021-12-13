@@ -1,0 +1,27 @@
+@import '../../../styles/palette';
+
+.inputText {
+  position: relative;
+  border: 3px solid $palette-white; 
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px rgba(36, 36, 36, 0.18);
+  margin: 5px 0;
+  width: 100%;
+  max-width: 100%;
+
+  &:focus {
+    border: 3px solid $palette-active-border;
+    outline: none;
+  }
+}
+.fieldWrapper {
+  position: relative;
+  width: 100%;
+}
+.badge {
+  position: absolute;
+  right: 8px;
+  top: 10px;
+
+}

@@ -1,0 +1,15 @@
+@import '../../styles/palette';
+
+.main {
+    header {
+        background: #f6f6f6;
+
+        h1 {
+            text-align: center;
+        }
+    } 
+}
+
+.content {
+    background: $palette-white;
+}
